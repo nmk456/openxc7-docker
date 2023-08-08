@@ -30,7 +30,7 @@ Basically everything in this project was copied from those projects and simply r
 
 ## Building Image
 
-Building will several minutes (x minutes on an i5-6500) and the image will be about 3.5 GB (7.5GB without `--squash`).
+Building from scratch will take a while (25 minutes on an i5-6500) and the image will be about 3.5 GB (7.5GB without `--squash`).
 
 Run `docker build --pull --rm --squash -t openxc7:latest .`
 
